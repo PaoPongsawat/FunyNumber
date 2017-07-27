@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fE9-p7-Fsk">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ppp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fE9-p7-Fsk">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPw-jC-tDO">
@@ -69,6 +69,7 @@
                     </view>
                     <connections>
                         <outlet property="decButton" destination="o9g-Me-PKH" id="BiT-iH-yMj"/>
+                        <outlet property="numberLabel" destination="KrM-DR-ZvM" id="U8p-pq-MID"/>
                         <outlet property="numberlabel" destination="KrM-DR-ZvM" id="Hev-jl-pz8"/>
                     </connections>
                 </viewController>
@@ -78,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="imgd.jpg" width="1600" height="1600"/>
+        <image name="ppp.jpg" width="1280" height="800"/>
     </resources>
 </document>

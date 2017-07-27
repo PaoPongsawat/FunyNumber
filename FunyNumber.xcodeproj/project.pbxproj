@@ -15,8 +15,8 @@
 		0FC00A9D1F29D7AB00EAAA21 /* FunyNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00A9C1F29D7AB00EAAA21 /* FunyNumberTests.swift */; };
 		0FC00AA81F29D7AB00EAAA21 /* FunyNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00AA71F29D7AB00EAAA21 /* FunyNumberUITests.swift */; };
 		0FC00AB61F29E23A00EAAA21 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC00AB51F29E23A00EAAA21 /* img.jpg */; };
-		0FC00AB81F29E51200EAAA21 /* imgd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC00AB71F29E51200EAAA21 /* imgd.jpg */; };
 		0FC00ABA1F29EA7A00EAAA21 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC00AB91F29EA7A00EAAA21 /* MyClass.swift */; };
+		0FC00ABE1F29F11900EAAA21 /* ppp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0FC00ABD1F29F11900EAAA21 /* ppp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +51,8 @@
 		0FC00AA71F29D7AB00EAAA21 /* FunyNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunyNumberUITests.swift; sourceTree = "<group>"; };
 		0FC00AA91F29D7AB00EAAA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC00AB51F29E23A00EAAA21 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img.jpg; path = ../../../../Desktop/img.jpg; sourceTree = "<group>"; };
-		0FC00AB71F29E51200EAAA21 /* imgd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imgd.jpg; path = ../../../../Desktop/imgd.jpg; sourceTree = "<group>"; };
 		0FC00AB91F29EA7A00EAAA21 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		0FC00ABD1F29F11900EAAA21 /* ppp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ppp.jpg; path = ../../../../Desktop/ppp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		0FC00A861F29D7AB00EAAA21 /* FunyNumber */ = {
 			isa = PBXGroup;
 			children = (
-				0FC00AB71F29E51200EAAA21 /* imgd.jpg */,
+				0FC00ABD1F29F11900EAAA21 /* ppp.jpg */,
 				0FC00AB51F29E23A00EAAA21 /* img.jpg */,
 				0FC00A871F29D7AB00EAAA21 /* AppDelegate.swift */,
 				0FC00A891F29D7AB00EAAA21 /* ViewController.swift */,
@@ -241,8 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC00ABE1F29F11900EAAA21 /* ppp.jpg in Resources */,
 				0FC00A921F29D7AB00EAAA21 /* LaunchScreen.storyboard in Resources */,
-				0FC00AB81F29E51200EAAA21 /* imgd.jpg in Resources */,
 				0FC00A8F1F29D7AB00EAAA21 /* Assets.xcassets in Resources */,
 				0FC00A8D1F29D7AB00EAAA21 /* Main.storyboard in Resources */,
 				0FC00AB61F29E23A00EAAA21 /* img.jpg in Resources */,
@@ -519,6 +519,7 @@
 				0FC00AAE1F29D7AB00EAAA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC00AAF1F29D7AB00EAAA21 /* Build configuration list for PBXNativeTarget "FunyNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +528,7 @@
 				0FC00AB11F29D7AB00EAAA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC00AB21F29D7AB00EAAA21 /* Build configuration list for PBXNativeTarget "FunyNumberUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +537,7 @@
 				0FC00AB41F29D7AB00EAAA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
